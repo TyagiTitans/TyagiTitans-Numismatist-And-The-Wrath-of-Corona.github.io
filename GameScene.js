@@ -428,7 +428,7 @@ update()
 
   if(this.cursor.left.isDown)
   {
-     this.player.setVelocityX(-130+this.levlspd);
+     this.player.setVelocityX(-130-this.levlspd);
 
      if(this.player.body.touching.down)
      {  
