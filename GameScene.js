@@ -385,7 +385,7 @@ update()
    {
      this.cbgimg=this.add.image(0,0,"bg0").setOrigin(0,0);
      this.add.image(650,0,"sun").setOrigin(0,0).setScale(0.5,0.5);
-     this.add.image(0,0,"cloud").setOrigin(0,0).setScale(0.5,0.7).setDepth(0);
+     this.add.image(100,250,"cloud").setOrigin(0,0).setScale(0.5,0.7).setDepth(0);
      this.add.image(370,120,"cloud").setOrigin(0,0).setScale(0.5,0.5);
    }
    else if(p==1)
