@@ -39,15 +39,17 @@ class PreloadScene extends Phaser.Scene{
             fill:"red"
         })
 
-        this.add.text(680,560,"TyagiTitans",{
+        this.add.text(680,560,"@ TyagiTitans",{
             fontSize:15,
             fontFamily:"Arial Black",
             fill:"purple"
         })
-        this.add.text(680,580,"version 1.5.1",{
-            fontSize:15,
+        this.add.text(560,180,"version 1.5.1",{
+            fontSize:12,
             fontFamily:"Arial Black",
-            fill:"purple"
+            stroke:"black",
+            // strokeThickness:5,
+            fill:"red"
         })
 
         const title=this.add.text(400,420,"START NEW GAME",{
